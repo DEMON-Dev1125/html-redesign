@@ -104,9 +104,8 @@ nav.scroll a {
 /*  */
 
 .backsection {
-  background-image: url("./bg2.gif");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-color: #f9ea8f;
+  background: linear-gradient(315deg, #f9ea8f 0%, #aff1da 74%);
   padding-top: 100px;
   padding-bottom: 30px;
 }
@@ -358,14 +357,6 @@ nav.scroll a {
   font-size: 16px;
   font-weight: 400;
 }
-
-.user__icon {
-    background-image: url(./user.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    content: "";
-}
-
 
 @media screen and (min-width: 64em) {
   .contact--horizontal .contact__options li {
